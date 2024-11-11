@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.major{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+div.picture{
+    background-image: url('Assets&Images/Reg-Pic.jpeg');
+    background-size: cover;
+    position: relative;
+    height: 95vh;
+    width: 40vw;
+    border-radius: 0.7rem;
+}
+
+.picture .overlay{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 95vh;
+    width: 40vw;
+    background-color: hsla(111, 22%, 49%, 0.486);
+    border-radius: 0.7rem;
+}
+
+div.welcome{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+div.text{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Reg-logo{
+    height: 6rem;
+    width: 6rem;
+}
+
+div.sign{
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.5rem;
+}
+
+div.email input{
+    padding: 0.5rem;
+    width: 20vw;
+    border-radius: 0.5rem;
+    border-color: #69986166;
+}
+
+div.ticks input{
+    margin-left: 1vw;
+    color: #69986166;
+}
+
+.create{
+    border: 1px solid #69986166;
+    padding: 1.5vh 7vw;
+    border-radius: 0.5rem;
+    background-color: #699861;
+    color: white;
+}
