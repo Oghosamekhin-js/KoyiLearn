@@ -44,7 +44,6 @@ div.welcome{
 }
 
 div.text{
-    border: 1px solid black;
     border-radius: 1rem;
     width: 35vw;
     display: flex;
@@ -65,7 +64,25 @@ div.sign{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    padding: 0.5rem;
+    height: 5.5vh;
+    align-items: center;
+    background-color: #EEF8EC;
+}
+
+.sign-up{
+    border-radius: 0.5rem;
+    background-color: #699861;
+    color: white;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.sign-in{
+    color: #9C9AA5;
+    text-align: center;
+    align-items: center;
 }
 
 div.email input{
@@ -73,6 +90,22 @@ div.email input{
     width: 20vw;
     border-radius: 0.5rem;
     border-color: #69986166;
+}
+
+sup{
+    color: red;
+}
+
+.pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 0.3rem;
+}
+
+.pass a{
+    color: #9C9AA5;
+    font-size: 0.75rem;
 }
 
 div.ticks input{
@@ -86,4 +119,38 @@ div.ticks input{
     border-radius: 0.5rem;
     background-color: #699861;
     color: white;
+}
+
+div.or{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    align-items: center;
+}
+
+div.or hr{
+    width: 4rem;
+    color: #9C9AA5;
+}
+
+div.final{
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+div.final span{
+    color: #9C9AA5;
+}
+
+div.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+div.buttons span{
+    border: 1px solid #69986166;
+    padding: 1vw 3vw;
+    border-radius: 0.5rem;
 }
