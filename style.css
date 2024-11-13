@@ -10,10 +10,153 @@
 
 nav{
     display: flex;
+    justify-content: space-between;
     padding: 1rem 4rem;
 }
 
 nav ul{
     display: flex;
+}
+
+nav li{
+    list-style-type: none;
+    padding-inline: 0.7rem;
+}
+
+nav li a{
+    color: #949494;
+    text-decoration: none;
+}
+
+ul .home{
+    background-color: #69986133;
+}
+
+ul .home a{
+    color: #699861 !important;
+    padding: 0.6rem 1rem !important;
+}
+
+.sign-in{
+    color: #699861;
+}
+
+.sign-in a{
+    border: 1px solid #699861;
+    color: #699861;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+}
+
+.get-start{
+    color: white;
+}
+
+.get-start a{
+    background-color: #699861;
+    color: white;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+}
+
+section.hero{
+    background-image: url('Assets&images/hero-pic.jfif');
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+
+div.overlay{
+    content:"";
+    position: absolute;
+    height: 90vh;
+    width: 100%;
+    background-color: hsla(109, 22%, 49%, 0.151);
+    border-radius: 0.7rem;
+    z-index: 1;
+}
+
+div.collab{
+    color: #F5E6CC;
+    width: 70vw;
+    z-index: 2;
+    position: absolute;
+    padding: 15rem 2rem;
+}
+
+div.collab h1{
+    font-size: 3.4rem;
+}
+
+div.collab p{
+    font-size: 0.9rem;
+    width: 50vw;
+}
+
+.get{
+    margin-top: 2rem;
     
+}
+
+.get a{
+    color: #F5E6CC;
+    text-decoration: none;
+    border: 1px solid #F5E6CC;
+    padding: 1rem 2rem;
+    border-radius: 0.6rem;
+}
+
+section.make{
+    padding: 4rem;
+    display: flex;
+    gap: 3.5rem;
+}
+
+.make1{
+    height: 50vh;
+    width: 60vw;
+}
+
+.make1 img{
+    height: 100%;
+    width: 100%;
+}
+
+.make2{
+    height: 50vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.make2 h3{
+    font-size: 2.5rem;
+}
+
+.make2 span{
+    color: #699861;
+}
+
+.make23 p a{
+    color: white;
+    background-color: #699861;
+    padding: 0.7rem 1.6rem;
+    border-radius: 0.7rem;
+    text-decoration: none;
+}
+
+section.join{
+    background-color: #FAF3E5;
+    height: 70vh;
+    width: 100%;
+    padding: 4rem;
+}
+
+.join1{
+    width: 50vw;
+}
+
+.join1 h3{
+    font-size: 3rem;
 }
