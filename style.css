@@ -11,11 +11,18 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 4rem;
+    padding: 0.1rem 4rem;
+    align-items: center;
 }
 
 nav ul{
     display: flex;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav li{
@@ -30,11 +37,12 @@ nav li a{
 
 ul .home{
     background-color: #69986133;
+    padding: 0.6rem 1rem;
 }
 
 ul .home a{
     color: #699861 !important;
-    padding: 0.6rem 1rem !important;
+    padding: 10rem 1rem !important;
 }
 
 .sign-in{
@@ -71,7 +79,7 @@ div.overlay{
     position: absolute;
     height: 90vh;
     width: 100%;
-    background-color: hsla(109, 22%, 49%, 0.151);
+    background-color: hsla(108, 22%, 49%, 0.205);
     border-radius: 0.7rem;
     z-index: 1;
 }
