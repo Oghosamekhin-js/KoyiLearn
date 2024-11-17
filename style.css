@@ -188,6 +188,21 @@ section.join{
     background-color: #FAF3E5;
 }
 
+.join2{
+    position: relative;
+}
+
+.search-icon{
+    position: absolute;
+    right: 0.3rem;
+    bottom: 0.1rem;
+}
+
+.search-icon img{
+    height: auto;
+    width: 1.7vw;
+}
+
 section.freq{
     height: 60vh;
     width: 100%;
