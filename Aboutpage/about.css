@@ -8,6 +8,10 @@
     src: url(./fonts/proximanova_bold.otf);
     font-weight: bold;
 }
+:root {
+    --foot-bg-clr : #101010;
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
