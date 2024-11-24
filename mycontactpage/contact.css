@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(./fonts/proximanova_regular.ttf);
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(./fonts/proximanova_bold.otf);
+    font-weight: bold;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+:root {
+    --foot-bg-clr : #101010;
+}
+
+/* header styling */
+.header-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 2rem;
+    align-items: center;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+}
+.navlinks a{
+    text-decoration: none;
+    color: #949494;
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700;
+    padding: 0.8rem 0.5rem ;
+
+}
+.navlinks a:hover{
+    background-color: #69986133;
+    color: #699861;
+}
+.signuplinks{
+    display: flex;
+    gap: 1rem;
+}
+.signin{
+    border: 1px solid #699861;
+    font-size: 0.875rem;
+    color: #699861;
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    /* font-family: "Proxima Nova", sans-serif;
+    letter-spacing: 0.09rem; */
+}
+.getstarted{
+    border: none;
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: #699861;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* main section styling */
+.first-content{
+    background-image: linear-gradient(to right, #D9E1D7 33.33%, #799D73 33.33%,#799D73 66.66%, #699861 66.66%);
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.imagediv img{
+    width: 100%;
+}
+.title{
+    flex-basis: 25%;
+}
+.heading-1{
+    color: #F5E6CC;
+    font-size: 3rem;
+    font-family: "Proxima Nova", sans-serif;
+}
+
+.second-container{
+    background-color: #F5E6CC80;
+}
+.second-content{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+    gap: 2.625rem;
+    padding: 5rem 3rem;
+}
+.contact-text{
+    flex-basis: 50%;
+}
+.contact-form{
+    flex-basis: 50%;
+}
+.contact-h2{
+    font-size: 2.8125rem;
+    font-weight: 700;
+    line-height: 1;
+}
+.contact-p{
+    max-width: 378px;
+    font-size: 1rem;
+    color: #011334;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+}
+.location-text p{
+    font-size: 1rem;
+    color: #011334;
+    font-weight: 700;
+    line-height: 1.6;
+    font-family: "Poppins", sans-serif;
+}
+.address{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 0.9rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    border: 1px solid #4F4F4F80;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    width: 80%;
+    background-color: transparent;
+}
+form button{
+    padding: 1rem;
+    background-color: #699861;
+    border: none;
+    color: #FFFFFF;
+    width: 20%;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* footer styling */
+.footer-container{
+    background-color: var(--foot-bg-clr);
+    padding: 2rem;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+    color: #F5E6CC;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+.foot-info{
+    text-align: justify;
+    line-height: 1.6;
+    max-width: 380px;
+    font-family: "Proxima Nova", sans-serif;
+}
+.f-heading{
+    color: #F5E6CC;
+    font-size: 1.875rem;
+    line-height: 1.5;
+    font-weight: bold;
+    font-family: "Proxima Nova", sans-serif;
+}
+.f-links a{
+    color: #F5E6CC;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    font-weight: 250;
+}
+.footercontent2{
+    background-color: #F5E6CC33;
+    opacity: 0.8;
+    color: #F5E6CC;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 2rem auto 0;
+    padding: 1rem 3rem;
+    border-radius: 16px;
+}
+.sociallinks{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
