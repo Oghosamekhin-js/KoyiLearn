@@ -10,8 +10,8 @@
 }
 :root {
     --foot-bg-clr : #101010;
+    font-size: 62.5%;
 }
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +22,7 @@ img{
     max-width: 100%;
 }
 /* :root{
-    font-size: 62.5%;
+    
 } */
 
 /* header styling */
@@ -43,7 +43,7 @@ img{
     text-decoration: none;
     color: #949494;
     font-family: "Proxima Nova", sans-serif;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 0.8rem 0.5rem ;
 
@@ -58,7 +58,7 @@ img{
 }
 .signin{
     border: 1px solid #699861;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     color: #699861;
     background-color: transparent;
     padding: 8px;
@@ -70,7 +70,7 @@ img{
 }
 .getstarted{
     border: none;
-    font-size: 0.875rem;
+    font-size: 1.55rem;
     color: #FFFFFF;
     font-weight: 700;
     background-color: #699861;
@@ -78,20 +78,92 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
+.hero-section{
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    padding: 300px 0;
+    position: relative;
+}
+
+.hero-content{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Proxima Nova", sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.main-heading{
+    font-weight: bold;
+    font-size: 5rem;
+    width: 80%;
+    max-width: 450px;
+}
+.h1{
+    color:#699861;
+}
+.p-cont{
+    position: relative;
+    left: 5%;
+}
+.p-hero{
+    font-weight: 400;
+    font-size: 1.875rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 450px;
+    line-height: 1.4;
+}
+/* second styling */
 .second-content{
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
+    font-family: "Proxima Nova", sans-serif;
 }
 .upper-cont{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    font-family: "Proxima Nova", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    flex: 1 1 50%;
+    justify-self: center;
+}
+.title-text{
+    flex: 1 1 50%
 }
 .middle-cont{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+.m-heading{
+    font-size: 3.125rem;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.v-heading{
+    font-size: 3.125rem;
+    font-weight: bold;
+    
+}
+.m-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2;
+    max-width: 300px;
+    margin: 1rem auto;
+
+}
+.v-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2;
+    max-width: 300px;
+    margin: 1rem auto;
 }
 .lower-cont{
     display: grid;
@@ -100,37 +172,111 @@ img{
 .title-h2{
     font-size: 3.75rem;
     font-weight: bold;
+    /* text-align: center; */
+    max-width: 260px;
 }
 .info-text{
     font-size: 1.875rem;
     text-align: justify;
     font-weight: 400;
 }
+.hr-2{
+    width: 95%;
+    border-top: 4px solid #699861;
+    margin: 3rem auto;
+}
+
+/* lower styling */
+.study{
+    font-size: 1.875rem;
+    /* text-align: justify; */
+    max-width: 170px;
+    letter-spacing: 0;
+}
+.l-h3{
+    font-size: 4.875rem;
+    font-weight: bold;
+}
+
+/* third container styling */
 
 .third-container{
     background-color: #F5E6CC80;
+    margin-bottom: 3rem;
 }
 .third-content{
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
+    font-family: "Proxima Nova", sans-serif;
+}
+.ama-team-h2{
+    font-weight: bold;
+    font-size: 3.75rem;
+    max-width: 300px;
+}
+.h3-3{
+    font-weight: bold;
+    font-size: 2.1875rem;
+}
+.p-t{
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 .image-carousel{
     display: flex;
     justify-content: space-between;
 }
+.third-hr{
+    /* width: 50%; */
+    border-top: 4px solid #699861;
+    margin: 3rem 0;
+}
 
 .fourth-container{
-    background-image: linear-gradient(to right, #699861, #233220);
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
+    margin-bottom: 3rem;
 }
 .fourth-content{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 4rem;
+    /* gap: 4rem; */
     padding: 0 3rem;
+    background-image: linear-gradient(to right, #699861, #233220);
+    width: 80%;
+    margin: 0 auto;
+}
+.h2-4{
+    color: #000000;
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: "Proxima Nova", sans-serif;
+    max-width: 360px;
+}
+.p-4{
+    font-size: 1.875rem;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    max-width: 380px;
+
+}
+.hr-4{
+    width: 50%;
+    border-top: 3px solid #fff;
+    margin: 2rem 0 ;
+}
+.btn-4{
+    background-color: #F5E6CC;
+    color: #699861;
+    font-size: 1.875rem;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
 }
 .fourthtext{
     flex-basis: 50%;
@@ -162,26 +308,32 @@ img{
     grid-template-columns: 2fr 1fr 1fr 1fr;
     gap: 20px;
     color: #F5E6CC;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     align-items: center;
+    font-family: "Proxima Nova", sans-serif;
 }
 .foot-info{
     text-align: justify;
     line-height: 1.6;
     max-width: 380px;
-    font-family: "Proxima Nova", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #F5E6CC80;
 }
 .f-heading{
     color: #F5E6CC;
     font-size: 1.875rem;
     line-height: 1.5;
     font-weight: bold;
-    font-family: "Proxima Nova", sans-serif;
+    margin-bottom: 1rem;
+}
+.f-links{
+    margin-bottom: 1rem;
 }
 .f-links a{
-    color: #F5E6CC;
-    font-size: 0.9375rem;
+    color: #F5E6CC80;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: 250;
 }
@@ -191,9 +343,9 @@ img{
     color: #F5E6CC;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: 2rem auto 0;
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 16px;
 }
 .sociallinks{
