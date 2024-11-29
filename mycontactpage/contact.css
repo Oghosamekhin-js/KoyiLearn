@@ -92,6 +92,7 @@
 
 .second-container{
     background-color: #F5E6CC80;
+    font-family: "Proxima Nova", sans-serif
 }
 .second-content{
     display: flex;
@@ -110,7 +111,7 @@
 .contact-h2{
     font-size: 2.8125rem;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.2;
 }
 .contact-p{
     max-width: 378px;
@@ -222,16 +223,51 @@ form button{
     .pglinks{
         display: none;
     }
-    .second-content{
+    .first-content{
         flex-direction: column;
     }
-    .contact-text{
-        flex: 100%;
+    .contact-h2{
+        font-size: 1.8rem;
+        text-align: center;
     }
-    .contact-form{
-        flex: 100%;
+    .contact-text,
+    .contact-form {
+        flex-basis: 100%; 
     }
-    form button{
-        width: 50%;
+    .second-content{
+        flex-direction: column;
+        /* width: 100%; */
+        gap: 1.5rem; 
+        padding: 2rem 1rem; 
+    }
+    .contact-p {
+        max-width: 100%;
+        font-size: 0.9rem; 
+        text-align: center;
+    }
+    .location-text p {
+        font-size: 0.9rem; 
+        text-align: center; 
+    }
+    .address {
+        flex-direction: column;
+        gap: 0.5rem; 
+        align-items: center; 
+    }
+    form {
+        width: 100%; 
+        padding: 0; 
+    }
+    form input,
+    form textarea {
+        width: 100%; 
+        margin: 0.5rem auto; 
+    }
+    form button {
+        width: 80%; 
+        font-size: 1rem; 
+    }
+    .footer-content{
+        grid-template-columns: 1fr;
     }
 }
