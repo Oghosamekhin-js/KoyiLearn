@@ -231,4 +231,7 @@ form button{
     .contact-form{
         flex: 100%;
     }
+    form button{
+        width: 50%;
+    }
 }
