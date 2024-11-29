@@ -206,3 +206,29 @@ form button{
     gap: 2rem;
     align-items: center;
 }
+
+
+@media (max-width : 600px){
+    .menuicon{
+        display: flex;
+        font-size: 2.5rem;
+    }
+    .logodiv img{
+        width: 60%;
+    }
+    .signuplinks{
+        display: none;
+    }
+    .pglinks{
+        display: none;
+    }
+    .second-content{
+        flex-direction: column;
+    }
+    .contact-text{
+        flex: 100%;
+    }
+    .contact-form{
+        flex: 100%;
+    }
+}
