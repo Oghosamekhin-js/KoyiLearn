@@ -69,6 +69,10 @@ ul .home a{
     border-radius: 0.7rem;
 }
 
+.burger{
+    display: none;
+}
+
 section.hero{
     background-image: url('Assets&images/hero-pic.jfif');
     background-size: cover;

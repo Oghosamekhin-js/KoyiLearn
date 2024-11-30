@@ -66,3 +66,19 @@ ul .home a{
     padding: 0.6rem 1rem;
     border-radius: 0.7rem;
 }
+
+section.hero{
+    background-image: url('/Features-Page/images/Hero-image.jfif');
+    background-size: cover;
+    height: 60vh;
+}
+
+div.overlay{
+    content:"";
+    position: absolute;
+    height: 60vh;
+    width: 100%;
+    background-color: hsla(107, 34%, 76%, 0.692);
+    border-radius: 0.7rem;
+    z-index: 1;
+}

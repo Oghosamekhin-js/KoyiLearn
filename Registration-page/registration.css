@@ -58,18 +58,34 @@ div.text{
 }
 
 div.sign{
-    border: 1px solid black;
     border-radius: 0.5rem;
     width: 20vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
     height: 5.5vh;
     align-items: center;
     background-color: #EEF8EC;
 }
 
-.sign-up{
+div.sign >*{
+    flex: 1;
+}
+
+div.sign a{
+    text-decoration: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #9C9AA5;
+}
+
+div.sign button{
+    border: none;
+}
+
+.sign-up
+
+/*.sign-up{
     border-radius: 0.5rem;
     background-color: #699861;
     color: white;
@@ -77,13 +93,29 @@ div.sign{
     width: 50%;
     text-align: center;
     align-items: center;
+    border: none;
+}
+
+.sign-up a{
+    color: white;
+    text-decoration: none;
 }
 
 .sign-in{
     color: #9C9AA5;
     text-align: center;
     align-items: center;
+
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: none;
 }
+
+.sign-in a{
+    color: #9C9AA5;
+    text-decoration: none;
+    text-align: center;
+}*/
 
 div.email input{
     padding: 0.5rem;
