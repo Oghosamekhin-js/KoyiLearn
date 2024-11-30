@@ -10,8 +10,8 @@
 }
 :root {
     --foot-bg-clr : #101010;
+    font-size: 62.5%;
 }
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -22,7 +22,7 @@ img{
     max-width: 100%;
 }
 /* :root{
-    font-size: 62.5%;
+    
 } */
 
 /* header styling */
@@ -43,7 +43,7 @@ img{
     text-decoration: none;
     color: #949494;
     font-family: "Proxima Nova", sans-serif;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     font-weight: 700;
     padding: 0.8rem 0.5rem ;
 
@@ -58,19 +58,17 @@ img{
 }
 .signin{
     border: 1px solid #699861;
-    font-size: 0.875rem;
+    font-size: 1.5rem;
     color: #699861;
     background-color: transparent;
     padding: 8px;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
-    /* font-family: "Proxima Nova", sans-serif;
-    letter-spacing: 0.09rem; */
 }
 .getstarted{
     border: none;
-    font-size: 0.875rem;
+    font-size: 1.55rem;
     color: #FFFFFF;
     font-weight: 700;
     background-color: #699861;
@@ -78,59 +76,204 @@ img{
     border-radius: 10px;
     cursor: pointer;
 }
-.second-content{
+.menuicon{
+    display: none;
+}
+.hero-section{
+    background-image: url("./assets/hero-bg.png");
+    background-position: center;
+    padding: 300px 0;
+    position: relative;
+}
+
+.hero-content{
     width: 80%;
     margin: 0 auto;
     padding: 2rem;
+    font-family: "Proxima Nova", sans-serif;
+    position: relative;
+    z-index: 1;
 }
-.upper-cont{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+.main-heading{
+    font-weight: bold;
+    font-size: 5rem;
+    width: 80%;
+    max-width: 450px;
+}
+.h1{
+    color:#699861;
+}
+.p-cont{
+    position: relative;
+    left: 5%;
+}
+.p-hero{
+    font-weight: 400;
+    font-size: 1.875rem;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 450px;
+    line-height: 1.4;
+}
+/* second styling */
+.second-content{
+    width: 60%;
+    margin: 0 auto;
+    padding: 3rem 0;
     font-family: "Proxima Nova", sans-serif;
 }
+.upper-cont{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 3rem auto;
+    gap: 0;
+}
+.title-text{
+    max-width: 350px;
+}
 .middle-cont{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+}
+.m-heading{
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: center;
+}
+.v-heading{
+    font-size: 3.125rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.m-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2;
+    max-width: 300px;
+    margin: 1rem auto;
+
+}
+.v-text{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 2;
+    max-width: 300px;
+    margin: 1rem auto;
 }
 .lower-cont{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 .title-h2{
     font-size: 3.75rem;
     font-weight: bold;
+    max-width: 260px;
 }
 .info-text{
     font-size: 1.875rem;
     text-align: justify;
     font-weight: 400;
 }
+.hr-2{
+    width: 95%;
+    border-top: 4px solid #699861;
+    margin: 3rem auto;
+}
+
+.study{
+    font-size: 1.875rem;
+    max-width: 170px;
+    letter-spacing: 0;
+}
+.l-h3{
+    font-size: 4.875rem;
+    font-weight: bold;
+}
+
+/* third container styling */
 
 .third-container{
     background-color: #F5E6CC80;
+    margin-bottom: 3rem;
 }
 .third-content{
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 2rem;
+    font-family: "Proxima Nova", sans-serif;
+}
+.ama-team-h2{
+    font-weight: bold;
+    font-size: 3.75rem;
+    max-width: 300px;
+}
+.h3-3{
+    font-weight: bold;
+    font-size: 2.1875rem;
+}
+.p-t{
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 .image-carousel{
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
+}
+.third-hr{
+    /* width: 50%; */
+    border-top: 4px solid #699861;
+    margin: 3rem 0;
 }
 
 .fourth-container{
-    background-image: linear-gradient(to right, #699861, #233220);
-    width: 80%;
-    margin: 0 auto;
-    padding: 2rem;
+    margin-bottom: 3rem;
 }
 .fourth-content{
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 4rem;
-    padding: 0 3rem;
+    padding: 5rem 2rem;
+    background-image: linear-gradient(to right, #699861, #233220);
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.h2-4{
+    color: #000000;
+    font-size: 3.75rem;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: "Proxima Nova", sans-serif;
+    max-width: 360px;
+}
+.p-4{
+    font-size: 1.875rem;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    max-width: 380px;
+
+}
+.hr-4{
+    width: 50%;
+    border-top: 3px solid #fff;
+    margin: 2rem 0 ;
+}
+.btn-4{
+    background-color: #F5E6CC;
+    color: #699861;
+    font-size: 1.875rem;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
 }
 .fourthtext{
     flex-basis: 50%;
@@ -158,30 +301,37 @@ img{
     padding: 2rem;
 }
 .footer-content{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
     color: #F5E6CC;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     align-items: center;
+    font-family: "Proxima Nova", sans-serif;
 }
 .foot-info{
     text-align: justify;
     line-height: 1.6;
-    max-width: 380px;
-    font-family: "Proxima Nova", sans-serif;
+    max-width: 275px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #F5E6CC80;
+    margin-top: 1rem;
 }
 .f-heading{
     color: #F5E6CC;
     font-size: 1.875rem;
     line-height: 1.5;
     font-weight: bold;
-    font-family: "Proxima Nova", sans-serif;
+    margin-bottom: 1rem;
+}
+.f-links{
+    margin-bottom: 1rem;
 }
 .f-links a{
-    color: #F5E6CC;
-    font-size: 0.9375rem;
+    color: #F5E6CC80;
+    font-size: 1.3rem;
     text-decoration: none;
     font-weight: 250;
 }
@@ -191,13 +341,104 @@ img{
     color: #F5E6CC;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
     margin: 2rem auto 0;
-    padding: 1rem 3rem;
+    padding: 2rem 3rem;
     border-radius: 16px;
 }
 .sociallinks{
     display: flex;
     gap: 2rem;
     align-items: center;
+}
+
+@media (max-width: 600px){
+    .header-container{
+        padding: 2rem 2rem;
+    }
+    .menuicon{
+        display: flex;
+        font-size: 2rem;
+    }
+    .logodiv img{
+        width: 60%;
+    }
+    .signuplinks{
+        display: none;
+    }
+    .pglinks{
+        display: none;
+    }
+    .upper-cont{
+        flex-direction: column;
+        text-align: center;
+    }
+    .middle-cont{
+        flex-direction: column;
+    }
+    .lower-cont{
+        flex-direction: column;
+        text-align: center;
+    }
+    .study{
+        max-width: 100%;
+    }
+    /* .third-container{
+
+    } */
+     .ama-team-h2{
+        font-size: 3.2rem;
+        max-width: 90%;
+        text-align: center;
+     }
+    .image-carousel{
+        flex-direction: column;
+    }
+    .h3-3{
+        font-size: 1.87rem;
+        margin-top: 1.5rem;
+    }
+    .p-t{
+        font-size: 1.1rem;
+    }
+    .fourth-content{
+        flex-direction: column-reverse;
+        padding: 3rem 4rem;
+        gap: 2rem;
+    }
+    .h2-4{
+        max-width: 90%;
+        font-size: 2.5rem;
+    }
+    .p-4{
+        font-size: 1.5rem;
+    }
+    .btn-4{
+        font-size: 1.5rem;
+    }
+    .footer-content{
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .foot-info{
+        font-size: 1.3rem;
+        text-align: center;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .f-imgg{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .f-heading{
+        font-size: 1.3rem;
+    }
+    .footercontent2{
+        padding: 1rem 2rem;
+        width: 50%;
+    }
 }
